@@ -1,0 +1,23 @@
+composer create-project laravel/laravel Dashboard
+
+cd Dashboard
+
+php artisan serve
+
+OR
+
+composer global require laravel/installer
+
+laravel new Dashboard
+
+cd Dashboard
+
+php artisan serve
+
+
+php artisan migrate OR :refresh
+composer require laravel/ui
+php artisan ui bootstrap --auth
+npm install npm run dev OR Agian
+php artisan config:clear
+php artisan cache:clear
